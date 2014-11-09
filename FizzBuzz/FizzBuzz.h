@@ -12,15 +12,16 @@
 
 
 /**
- * Method that takes one number
- * if the number is divided by 3 return "Fizz"
- * if the number is divided by 5 return "Buzz"
- * if the number is divided by 15 return "FizzBuzz"
+ * Method that takes one number.
+ * If the number is divided by 3 return "Fizz".
+ * If the number is divided by 5 return "Buzz".
+ * If the number is divided by 15 return "FizzBuzz".
+ * If none of the above satisfied, return input as a string.
  *
  * @param number 
- * @return a string Fizz, Buzz, or FizzBuzz
+ * @return string of number or Fizz, Buzz, FizzBuzz
  */
-- (NSString *)fizzbuzz:(NSInteger)number;
+- (NSString *)take:(NSInteger)number;
 
 
 @end
